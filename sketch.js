@@ -59,7 +59,7 @@ function draw() {
 
 
   function mouseDragged(){
-    Matter.Body.setPosition( monster.body,{x:mouseX,y:mouseY})
+    Matter.Body.setPosition(monster.body,{x:mouseX,y:mouseY})
 }
 
 
